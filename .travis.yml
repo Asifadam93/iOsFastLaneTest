@@ -1,20 +1,20 @@
 osx_image:  xcode8.1
 language: objective-c
-  cache:
+cache:
   - bundler
   - cocoapods
 
-  branches:
-    only:
-      - develop
-      - master
+branches:
+  only:
+    - develop
+    - master
 
-  notifications:
-    email:  false
+notifications:
+  email:  false
 
-  before_install:
-    - gem install bundler
-    - bundler install
+before_install:
+  - gem install bundler
+  - bundler install
 
-  script:
-    - bundle exec fastlane bonjour
+script:
+  - bundle exec fastlane bonjour
