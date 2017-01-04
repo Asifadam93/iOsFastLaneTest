@@ -1,0 +1,10 @@
+lane :bonjour do
+
+UI.success "Bravo!"
+UI.error "error"
+
+scan(
+	project: "fastLaneFrameworkUnitTest.xcodeproj"
+)
+
+end
