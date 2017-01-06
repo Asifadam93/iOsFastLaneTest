@@ -25,5 +25,9 @@ class UserTest: XCTestCase {
         XCTAssertEqual(u.description,"[User asifadam qlieqlkfgbwkd]")
     }
     
+    /*func testUserDescription2() {
+        let u = User(login: "asifadam", mp: "qlieqlkfgbwkd")
+        XCTAssertEqual(u.description,"[User asifad qlieqlkfgbwkd]")
+    }*/
     
 }

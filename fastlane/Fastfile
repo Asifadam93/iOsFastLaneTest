@@ -11,3 +11,10 @@ scan(
 xcov
 
 end
+
+lane :deploy do
+
+	version = get_version_number()
+	print version
+
+end

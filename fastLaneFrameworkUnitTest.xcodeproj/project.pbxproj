@@ -408,6 +408,7 @@
 				3BFC09401E1CFB6D00C3593B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BFC09411E1CFB6D00C3593B /* Build configuration list for PBXNativeTarget "fastLaneFrameworkUnitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				3BFC09431E1CFB6D00C3593B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
