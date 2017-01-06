@@ -4,7 +4,10 @@ UI.success "Bravo!"
 UI.error "error"
 
 scan(
-	project: "fastLaneFrameworkUnitTest.xcodeproj"
+	project: "fastLaneFrameworkUnitTest.xcodeproj",
+	code_coverage: true
 )
+
+xcov
 
 end
